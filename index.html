@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Section 2: JavaScript Language Basics</title>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+       
+       <h1>Array manipulator</h1>
+       
+       <div class="section">
+
+            <p>This button lists the queue of items. Give it a try!</p>
+
+            <button onclick="displayItems()">Display Items</button>
+        
+            <div id="items"></div>
+            
+        </div>
+        
+        <div class="section">
+            
+            <p>This section adds items to the queue. Enter an item you'd like to add, then click the button.</p>
+            
+            <input id="newitem"/>
+            <button onclick="addItem()">Add Item</button>
+            
+        </div>
+        
+         <div class="section">
+            
+            <p>This section changes items in the queue. Enter the position of the item you'd like to change, and enter a new name.</p>
+            
+            <input id="oldItem"/>&nbsp;<input id="newItem"/>
+            <button onclick="changeItem()">Change Item</button>
+            
+        </div>
+        
+        <div class="section">
+        
+            <p>This button deletes an item from the list. Type the name of the item you wish to delete, then click the button.</p>
+            
+            <input id="deleteitem"/>
+            <button onclick="deleteItem()">Delete Item</button>
+        
+        </div>
+        
+    </body>
+    
+    
+</html>
